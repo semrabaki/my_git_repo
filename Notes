@@ -1,0 +1,73 @@
+GIT- is version control tool
+You can store, access, use, track and share all new or older codes
+Collaboration and Team Work
+We can save different versions
+We can update the existing code and save it
+
+Version means commit 
+
+GITHUB
+Online version of Git it is safe the use github when you have big project
+
+Oopen your eclipse
+2. Create a Java project
+3. -name my_git_repo
+4.create a new package
+5.create a new Class
+5. Open terminal
+- Right click on your project
+- If you see Terminal select it
+8.We have to be on the project folder: my_git_repo
+Now we can start using git for this project
+---------------
+type git init in the terminal
+
+Pushing Code To Git:
+1.-git init  (it creates .git folder)
+-git init must be used only once, when we a create a new project.
+
+2.git status ( it is used for to learn whatever in that project) This is used to check the status of the files
+This is our friends 
+We can use git status to learn the files that is not committed
+Red meann UNCOMMITTED FILES
+
+3.git add .   (This is used for move the code in the staging area
+
+.git status
+Green means codes are ready to be COMMITTED
+We can create  a new version
+
+4.git commit -m "first Commit" ("" icine hangi mesaji yazidirrsan yazdir)
+We now created a new VERSION
+
+git status
+------------------------------------------------------
+
+******************Hot to send the code to GITHUB????
+1.Open your GITHUB account
+2.Create a new repository
+3.Go to REositories
+4. Click on New
+5.Repository Name: my_fit_repo
+6.Click Create Reppsitory
+Then we should see INSTRUCTION to push your first code
+7.
+git branch -M main
+git remote add origin https://github.com/semrabaki/my_git_repo.git
+git push -u origin main
+
+Note: If there is no error, then your code should be 
+
+Note: If you see error then you can check you configuration
+
+
+========================2nd Code Push=================================
+As of now, I oushed all my local code to gitHub repository
+NOW WHAT SHOULD I DO, IF I ADD NEW CODES IN MY LOCAL?
+1. Creat SEconsJavaClass
+make sure save the code
+1.git add .
+ git status check
+ 2. git commit -m "second commit"
+ 3. git push
+
