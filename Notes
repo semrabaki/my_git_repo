@@ -58,8 +58,16 @@ git push -u origin main
 
 Note: If there is no error, then your code should be 
 
-Note: If you see error then you can check you configuration
-
+NOTE: If there is no error, then your codes should now be in github
+NOTE: IF YOU SEE ERROR THEN YOU CAN CHECK YOUR CONFIGURATION:
+In the same terminal :
+***. git config --global user.name "your github username"
+***. git config --global user.email "your github email"
+***. git config --list
+***. git config credential.username "your github username"
+***. git config credential.password "your github password"
+AND TRY PUSHING ONE MORE TIME:
+git push -u origin main
 
 ========================2nd Code Push=================================
 As of now, I oushed all my local code to gitHub repository
