@@ -119,3 +119,8 @@ Then go to your terminal and pull the code in your local repo
 git pull
 Then we you see the GitHub and local codes are now the same
 
+========================================
+Senaryo: for example you created a file on github and eclipse 
+
+you need to pull the file from github before you push otherwise you will get error message. 
+int this case you should pull first
