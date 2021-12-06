@@ -94,5 +94,28 @@ make sure save the code
  =====================================
  We create .gitignore file in the project level
  
+ and the file that I do not want to send and save in git ignore save it and refresh
+ 
+ ====================GIT STAGES==============================================
+ 
+ git add .  sends our code to staging area which is still in our computer like a temproray memory
+git commit -m  sends my code to local repositpry from staging are 
 
+git push- sends my code to github
+
+===================How we pull the code to my eclipse ============================================
+git pull==> brings and adds to your local repo
+
+git fetch=>brings code from github to your local repisotry
+
+
+git merge=> brings code from your local repisorty to ecplipse (IDD)
+
+
+Task====
+Go you your GitHub repo and create a new file in the project level : MyNotes.txt
+Add File > Create new file > name: MyNotes1.txt > commit new file
+Then go to your terminal and pull the code in your local repo
+git pull
+Then we you see the GitHub and local codes are now the same
 
