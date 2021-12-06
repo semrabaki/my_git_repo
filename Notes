@@ -16,7 +16,7 @@ Oopen your eclipse
 5.create a new Class
 5. Open terminal
 - Right click on your project
-- If you see Terminal select it
+-Show In then If you see Terminal select it
 8.We have to be on the project folder: my_git_repo
 Now we can start using git for this project
 ---------------
@@ -78,4 +78,21 @@ make sure save the code
  git status check
  2. git commit -m "second commit"
  3. git push
+ 
+ 
+ Day 2
+ ==========================
+ only push specific file
+ 
+ type git status 
+ them pick the one which are red
+ copy
+ then git add "src/my_git_repo/ThirdJavaClass.java"
+ then push and check github for update
+ 
+ Task2= there are 10 files and you want to send 9 of them what to do
+ =====================================
+ We create .gitignore file in the project level
+ 
+
 
