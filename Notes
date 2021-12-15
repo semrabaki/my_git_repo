@@ -124,3 +124,19 @@ Senaryo: for example you created a file on github and eclipse
 
 you need to pull the file from github before you push otherwise you will get error message. 
 int this case you should pull first
+Day 03
+==============
+Day 3
+
+Conflict happens  when different people try to code in the same line in the same class and there is different code in the same line
+
+the problem is which code is going to have the priortiy!! you need to fix it 
+
+
+Solution
+1) delete the code manually
+2)Commit clean code
+3) push the clean code
+
+(Auto merge, or manual fix(recommennded)
+(git add . git commit -m "conflict resolved" git push
